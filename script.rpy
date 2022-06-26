@@ -14,6 +14,8 @@ image byak glitched:
 
 # Имена персонажей
 
+# Илья гей
+
 define An = Character("Антон", color="#DC143C")
 define Al = Character("Алексей", color="#808080", image="alex")
 define Li = Character("Лиза", color="#FFB6C1", image="lisa")

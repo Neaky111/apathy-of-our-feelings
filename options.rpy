@@ -178,6 +178,8 @@ init python:
 
     ## Classify files as None to exclude them from the built distributions.
 
+    config.language = "russian"
+
     build.classify('**~', None)
     build.classify('**.bak', None)
     build.classify('**/.**', None)

@@ -1,10 +1,10 @@
 transform chromatic_offset(child, chzoom=1.01):
     Fixed(
-          Transform(child, alpha=.0),
-          Transform(child, xalign=.0, xzoom=chzoom, gl_color_mask=(False, False, True, True)),
-          Transform(child, xalign=.5, xzoom=chzoom, gl_color_mask=(False, True, False, True)),
-          Transform(child, xalign=1.0, xzoom=chzoom, gl_color_mask=(True, False, False, True)),
-          fit_first=True)
+        Transform(child, alpha=.0),
+        Transform(child, xalign=.0, xzoom=chzoom, gl_color_mask=(False, False, True, True)),
+        Transform(child, xalign=.5, xzoom=chzoom, gl_color_mask=(False, True, False, True)),
+        Transform(child, xalign=1.0, xzoom=chzoom, gl_color_mask=(True, False, False, True)),
+        fit_first=True)
     crop (.0, .0, 1.0, 1.0)
     crop_relative True
 
@@ -26,8 +26,8 @@ init python:
             # theight is the height of this particular strip
             theight = max(theights.pop(0)-fheight, minbandheight) if theights else cheight-theight
             band = Transform(child,
-                             crop=(-offt, fheight, cwidth, theight),
-                             )
+                            crop=(-offt, fheight, cwidth, theight),
+                            )
             if chroma:
                 band = chromatic_offset(Flatten(band), chzoom=1.0+.5*offt/cwidth)
             lizt.append(band)
@@ -38,8 +38,8 @@ init python:
                 offt = randomobj.randint(-offset, offset)
         crop = crop or None
         return Fixed(Transform(child, alpha=.0),
-                     VBox(*lizt),
-                     fit_first=True,
-                     crop_relative=crop or False,
-                     crop=crop and (0, 0, 1.0, 1.0),
-                     )
+                    VBox(*lizt),
+                    fit_first=True,
+                    crop_relative=crop or False,
+                    crop=crop and (0, 0, 1.0, 1.0),
+                    )

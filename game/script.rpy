@@ -416,3 +416,4 @@ label oil:
     hide lisa smil kupalnik
     jump minigame
 label minigame:
+show byak glitched

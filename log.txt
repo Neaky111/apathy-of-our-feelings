@@ -1,0 +1,50 @@
+Sun Jun 26 23:47:01 2022
+Windows-10-10.0.19041
+Ren'Py 7.4.11.2266
+ 
+
+Bootstrap to the start of init.init took 0.16s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.23s
+Loading script took 2.57s
+Loading save slot metadata. took 0.18s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.19s
+Loading analysis data took 0.00s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\mrred\\AppData\\Roaming/RenPy/backups\\apathy-of-our-feelings':
+Dump and make backups. took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.38s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.06s
+Prepare screens took 0.22s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.04s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.84'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1080) drawable=(1920, 1080)
+Could not open 'cache/shaders.txt':
+Maximum texture size: 4096x4096

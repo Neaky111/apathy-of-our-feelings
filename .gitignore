@@ -120,3 +120,6 @@ CubismSdkForNative-4-*.zip
 
 # Works in progress, throwaway scripts, etc.
 /scratch
+
+# Visual Studio Code config files.
+.vscode

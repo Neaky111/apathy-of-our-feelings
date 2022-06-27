@@ -152,6 +152,7 @@ define config.save_directory = "Byak-1650283281"
 
 define config.window_icon = "gui/window_icon.png"
 
+define config.language = "russian"
 
 ## Build configuration #########################################################
 ##
@@ -177,8 +178,6 @@ init python:
     ## subdirectories, and "**.psd" matches psd files anywhere in the project.
 
     ## Classify files as None to exclude them from the built distributions.
-
-    config.language = "russian"
 
     build.classify('**~', None)
     build.classify('**.bak', None)
